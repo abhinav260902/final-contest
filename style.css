@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-left: 1.8rem;
+    margin-right: 0.6rem;
+    background-color: rgb(234, 237, 240);
+}
+main{
+    display: flex;
+
+}
+.post-container{
+    height: 100vh;
+    width:60%;
+    background-color: rgb(200, 211, 172);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.your-feed{
+    height:100vh;
+    width: 40%;
+    background-color: rgb(124, 224, 234);
+
+}
+.post-container > p{
+    margin-left: -18rem;
+    margin-bottom:-2.5rem;
+    font-weight: 50px;
+}
+.ticket{
+    height: 320px;
+    width: 460px;
+    background-color: #f29e9e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(71, 55, 55, 0.1);
+    gap:0.25rem;
+
+}
+
+.ticket-text{
+    margin-top:3rem;
+}
+
+.ticket > .ticket-text > input{
+    margin-top: -30px;
+    width: 400px;
+    height: 200px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ticket > .ticket-text > input::placeholder{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ticket > button{
+   margin-top: 2rem;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #4e51ce;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    color: white;
+    font-size: large;
+}
+
+.ticket-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #e5ade1;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticket-header p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.ticket-header p:last-child {
+    font-size: 14px;
+    color: #666;
+}
+
+.ticket-header-icon img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ticket-header-icon img:hover {
+    opacity: 0.7;
+}
+
+.ticket-body {
+    padding: 10px;
+}
+
+.ticket-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.ticket-footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.ticket-footer img:hover {
+    opacity: 0.7;
+}
